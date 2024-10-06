@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 0;
+    font-family: "Vollkorn", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+}
+
+
+img{
+    width: 95%;
+    margin: 10px;
+}
+
+nav{
+    background-color: rgba(220, 234, 234, 0.768);
+    overflow: hidden;
+    height: 40px;
+}
+nav ul li{
+    list-style-type: none;
+    margin-left: 110px;
+}
+nav ul li a{
+    
+    text-decoration: none;
+    float: left;
+   padding: 10px 16px;
+}
+
+nav ul li a:hover{
+    color: black;
+    
+}
+
+.logo{
+    width: 70%;
+    position: relative;
+    margin: 20px 65px;
+}
+
+.paragraph1{
+    position: relative;
+    text-align: center;
+    font-weight:700;
+    margin-top: -50px;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.038);
+    border-radius: 10px;
+}
+
+.paragraph2{
+    position: relative;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.heading1{
+    color: rgb(5, 5, 72);
+    position: relative;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.paragraph3{
+ 
+    position: relative;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 10px;
+}
+
+span p{
+    background-color: rgba(215, 217, 250, 0.171);
+    position: relative;
+    font-size: 17px;
+    outline: auto;
+    outline-color: rgba(32, 6, 83, 0.069);
+    outline-style: double;
+    padding-left: 20PX;
+    width: 100%;
+}
+
+.button1{
+    width: 120px;
+    height: 40px;
+    font-size: 12px;
+    position: relative;
+    margin: 20px;
+    
+}
+
+.button1:hover{
+    background-color: rgba(6, 6, 71, 0.64);
+    color: white;
+    border-radius: px;
+}
+
+.button2{
+    width: 120px;
+    height: 40px;
+    font-size: 12px;
+    position: relative;
+    background-color: rgb(5, 5, 71);
+    color: white;
+}
+
+.button2:hover{
+    background-color: rgb(220, 210, 210);
+    color: black;
+}
+
+.img1{
+    position: relative;
+    width: 100%;
+    margin: auto;
+
+}
+
+.page2{
+    background-color: rgb(5, 5, 70);
+    height: 580px;
+    width: 100%;
+    margin-top: -6px;
+    position: relative;
+    right: 0px;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+   
+}
+
+.paragraph4{
+    font-size: 13px;
+   
+}
+
+.button3{
+    height: 30px;
+    width: 100px;
+    background-color: rgba(6, 6, 66, 0.259);
+    color: white;
+    outline: auto;
+    font-size: 10px;
+}
+
+.button3:hover{
+    color: black;
+    background-color: white;
+}
+
+.page3{
+    text-align: center;
+    margin: 20px 0px;
+    font-weight:300;
+}
+
+.img2{
+    position: relative;
+    margin: 20px 0px;
+    width: 100%;
+
+}
+
+.page4{
+    background-color: #f5f5f95b;
+    text-align: center;
+    height:350px ;
+ 
+}
+.paragraph5{
+    font-size: 13px;
+    width: 100%;
+    padding: 20px;
+    
+}
+
+.img3{
+    position: relative;
+    margin: 0px 0px;
+    width: 100%;
+}
+
+.page5{
+    background-color: #f5f5f95b;
+    margin-top: 98%;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+     
+}
+
+.paragraph6{
+    font-size: 13px;
+    
+}
+
+.rel{
+    margin-top:600%;
+}
+
+
+
+
+
+
+
+@media (min-width:600px) {
+/* 
+
+
+
+
+
+    .button3{
+        width: 150px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    
+
+ 
+
+
+
+
+ 
+
+   
+
+    
+
+   
+
+  
+
+
+    nav{
+        background-color: rgba(220, 234, 234, 0.768);
+        overflow: hidden;
+        height: 40px;
+    }
+    nav ul li{
+        list-style-type: none;
+        margin-left:10px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        float: left;
+        padding-left: 6px;
+        padding-bottom: 40px;
+        margin-left: 40%;
+    }
+    
+    nav ul li a:hover{
+        color: black;
+        border: 2px solid black;
+    }
+  
+
+    img{
+        width: 30%;
+       float: left;
+        
+    } */ 
+
+    .paragraph6{
+        font-size: 20px;
+    }
+
+    .page5{
+        position: relative;
+        height: 550px;
+        width: 43%;
+        font-size: 30px;
+        margin: 0px 30%;
+    }
+
+    .img3{
+        width: 43%;
+        position: relative;
+        margin: 20px 30%;
+    }
+
+    
+    .paragraph5{
+        font-size: 20px;
+    }
+
+    
+    .page4{
+        position: relative;
+        height: 500px;
+        width: 43%;
+        font-size: 30px;
+        margin: 0px 30%;
+    }
+
+    .img2{
+      width: 43%;
+      position: relative;
+      margin: 0px 30%;
+
+    }
+
+    
+    .page3{
+        position: relative;
+        font-size: 30px;
+    }
+
+    .paragraph4{
+        font-size: 18px;
+    }
+
+    .page2{
+        width: 43%;
+        position: relative;
+        font-size: 30px;
+        height: 765px;
+        margin: 0px 30%;
+    }
+
+
+    .img1{
+        width: 43%;
+        position: relative;
+        margin: 0px 30%;
+
+
+    }
+
+    .button2{
+        position: relative;
+        height: 50px;
+        width: 200px;
+        margin: 20px -27%
+    }
+
+    .button1{
+        position: relative;
+        height: 50px;
+        width: 200px;
+        font-size: 15px;
+        color: rgb(6, 6, 70);
+        margin: 20px 35%;
+    }
+
+
+    span p{
+        position: relative;
+        font-size: 200%;
+        outline: auto;
+        outline-color: rgba(5, 5, 69, 0.203);
+        width: 670px;
+        margin: 0px 30%;
+    }
+
+    .paragraph3{
+        position: relative;
+        font-size: 220%;
+        margin: 0px 30%;
+    }
+
+    .heading1{
+        position: relative;
+        font-size: 400%;
+    }
+
+    .paragraph2{
+        position: relative;
+        font-size: 200%;
+    }
+
+    .paragraph1{
+        position: relative;
+        font-size: 300%;
+        width:600px;
+        margin: 0px 30%;
+    }
+
+    .logo{
+        width: 20%;
+        position: relative;
+        margin: 0px 40%;
+    }
+}
